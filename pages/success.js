@@ -25,7 +25,7 @@ const Success = () => {
         <h2>Voilaa!!!</h2>
         <p className="email-msg">Your order was successfull</p>
         <p className="description">
-          Thanks for shopping with us
+          Any issue? Feel free to
           <a className="email" href="mailto:aniruddhaboral@gmail.com">
             Contact us 
           </a>

@@ -22,12 +22,12 @@ const Success = () => {
         <p className="icon">
           <BsBagCheckFill />
         </p>
-        <h2>Voilaa!!! Thank you for your order!</h2>
-        <p className="email-msg">Check your email inbox for the receipt.</p>
+        <h2>Voilaa!!!</h2>
+        <p className="email-msg">Your order was successfull</p>
         <p className="description">
-          If you have any questions, please email
-          <a className="email" href="mailto:order@example.com">
-            order@example.com
+          Thanks for shopping with us
+          <a className="email" href="mailto:aniruddhaboral@gmail.com">
+            Contact us 
           </a>
         </p>
         <Link href="/">

@@ -86,11 +86,11 @@ width: 100%;
 
 .sanity-icon{
   font-size: 52px;
-  color: rgb(215, 125, 21);
+  color: rgb(9, 1, 113);
   cursor: pointer;
 
   left: 100px;
-  transition: transform .4s ease;
+  
   border: none;
   background-color: transparent;
 }

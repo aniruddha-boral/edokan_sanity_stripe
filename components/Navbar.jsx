@@ -14,7 +14,7 @@ const Navbar = () => {
       </p>
 
       <Link href="/">
-          <button type="button" width="300px" className="sanity-icon">
+          <button type="button" className="sanity-icon">
           <AiOutlineShopping />
           </button>
         </Link>

@@ -33,6 +33,7 @@ const Cart = () => {
   }
 
   return (
+    <div>
     <div className="cart-wrapper" ref={cartRef}>
       <div className="cart-container">
         <button
@@ -106,6 +107,7 @@ const Cart = () => {
         )}
       </div>
     </div>
+     </div>
   )
 }
 

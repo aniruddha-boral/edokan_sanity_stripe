@@ -12,9 +12,9 @@ const Navbar = () => {
       <p className="logo">
         <Link href="/">Online Shopping Platform</Link>
       </p>
-      <button type="button" className="sanity-icon"  href="/" >
+      <p type="button" className="sanity-icon"  href="/" >
         <AiOutlineShopping />
-      </button>
+      </p>
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
         <AiOutlineShopping />
        <span className="cart-item-qty">{totalQuantities}</span>

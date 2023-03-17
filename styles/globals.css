@@ -78,9 +78,16 @@ width: 100%;
   border: none;
   background-color: transparent;
 }
+
+
 .cart-icon:hover{
   transform: scale(1.1,1.1);
 }
+
+.sanity-icon{
+  font-size: 50px;
+}
+
 .cart-item-qty{
   position: absolute;
   right: -8px;

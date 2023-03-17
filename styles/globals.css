@@ -88,7 +88,7 @@ width: 100%;
   font-size: 52px;
   color: rgb(9, 1, 113);
   cursor: pointer;
-
+  position: sticky;
   left: 100px;
   
   border: none;

@@ -33,7 +33,6 @@ const Cart = () => {
   }
 
   return (
-    <div className="container">
     <div className="cart-wrapper" ref={cartRef}>
       <div className="cart-container">
         <button
@@ -44,6 +43,7 @@ const Cart = () => {
           <span className="heading">Your Cart</span>
           <span className="cart-num-items">({totalQuantities} items)</span>
         </button>
+
         {cartItems.length < 1 && (
           <div className="empty-cart">
             <AiOutlineShopping size={150} />
@@ -57,7 +57,7 @@ const Cart = () => {
                 Continue Shopping
               </button>
             </Link>
-          
+          </div>
         )}
 
         <div className="product-container">
@@ -68,7 +68,7 @@ const Cart = () => {
                 <div className="flex top">
                   <h5>{item.name}</h5>
                   <h4>₹{item.price}</h4>
-               
+                </div>
                 <div className="flex bottom">
                   <div>
                   <p className="quantity-desc">
@@ -78,18 +78,23 @@ const Cart = () => {
                     <span className="num" onClick="">{item.quantity}</span>
                     <span className="plus" onClick={() => toggleCartItemQuanitity(item._id, 'inc') }><AiOutlinePlus /></span>
                   </p>
-                 
+                  </div>
                   <button
                     type="button"
                     className="remove-item"
                     onClick={() => onRemove(item)}
                   >
                     <TiDeleteOutline />
-                  </button>))}
+                  </button>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
         {cartItems.length >= 1 && (
           <div className="cart-bottom">
             <div className="total">
-              <h3>Subtotal:</h3>
+              <h3>    Subtotal:</h3>
               <h3>₹{totalPrice}</h3>
             </div>
             <div className="btn-container">
@@ -100,10 +105,7 @@ const Cart = () => {
           </div>
         )}
       </div>
-
-    
-
-
+    </div>
   )
 }
 

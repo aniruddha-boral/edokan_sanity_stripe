@@ -321,11 +321,11 @@ text-align: end;
  .cart-heading{
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: 500;
   cursor: pointer;
   gap: 2px;
-  margin-left: 10px;
+  margin-left: 30px;
   border: none;
   background-color: transparent;
 }

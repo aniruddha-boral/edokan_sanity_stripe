@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { AiOutlineShopping } from 'react-icons/ai'
+import { AiOutlineShopping, FcAddDatabase } from 'react-icons/ai'
 import { Cart } from './';
 import { useStateContext} from '../context/StateContext';
 
@@ -15,7 +15,7 @@ const Navbar = () => {
 
       <Link href="https://aniruddhaboral2.sanity.studio/desk">
           <button type="button" className="sanity-icon">
-          <AiOutlineShopping />
+          <FcAddDatabase />
           </button>
         </Link>
 

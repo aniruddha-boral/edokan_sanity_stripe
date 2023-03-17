@@ -376,11 +376,12 @@ padding: 20px 10px;
 
 }
 .remove-item{
-  font-size: 24px;
+  font-size: 40px;
   color: #f02d34;
   cursor: pointer;
   background: transparent;
   border: none;
+  right: 50px;
 }
 .cart-bottom{
   position: absolute;

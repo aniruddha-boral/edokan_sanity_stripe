@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import { AiOutlineShopping, FcAddDatabase } from 'react-icons/ai'
+import { AiOutlineShopping } from 'react-icons/ai'
+import { FcAddDatabase } from 'react-icons/Fc'
 import { Cart } from './';
 import { useStateContext} from '../context/StateContext';
 

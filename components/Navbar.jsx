@@ -13,7 +13,7 @@ const Navbar = () => {
         <Link href="/">Online Shopping Platform</Link>
       </p>
 
-      <Link href="/">
+      <Link href="https://aniruddhaboral2.sanity.studio/desk">
           <button type="button" className="sanity-icon">
           <AiOutlineShopping />
           </button>

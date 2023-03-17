@@ -57,7 +57,7 @@ const Cart = () => {
                 Continue Shopping
               </button>
             </Link>
-          </div>
+          
         )}
 
         <div className="product-container">
@@ -85,12 +85,7 @@ const Cart = () => {
                     onClick={() => onRemove(item)}
                   >
                     <TiDeleteOutline />
-                  </button>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+                  </button>))}
         {cartItems.length >= 1 && (
           <div className="cart-bottom">
             <div className="total">

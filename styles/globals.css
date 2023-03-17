@@ -88,7 +88,7 @@ width: 100%;
   font-size: 52px;
   color: rgb(215, 125, 21);
   cursor: pointer;
-  position: relative;
+  position: fixed;
   transition: transform .4s ease;
   border: none;
   background-color: transparent;

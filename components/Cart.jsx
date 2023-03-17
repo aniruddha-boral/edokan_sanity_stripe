@@ -83,13 +83,13 @@ const Cart = () => {
                     <span className="plus" onClick={() => toggleCartItemQuanitity(item._id, 'inc') }><AiOutlinePlus /></span>
                   </p>
                   </div>
-                  <div
+                  <button
                     type="button"
                     className="remove-item"
                     onClick={() => onRemove(item)}
                   >
                     <TiDeleteOutline />
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>

@@ -381,7 +381,7 @@ padding: 20px 10px;
   cursor: pointer;
   background: transparent;
   border: none;
-  right: 50px;
+  padding: 30px 65px;
 }
 .cart-bottom{
   position: absolute;

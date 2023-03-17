@@ -88,7 +88,7 @@ width: 100%;
   font-size: 52px;
   color: rgb(215, 125, 21);
   cursor: pointer;
-  position: absolute;
+  position: relative;
   left: 1750px;
   transition: transform .4s ease;
   border: none;

@@ -33,6 +33,7 @@ const Cart = () => {
   }
 
   return (
+    <div className="container">
     <div className="cart-wrapper" ref={cartRef}>
       <div className="cart-container">
         <button
@@ -43,7 +44,6 @@ const Cart = () => {
           <span className="heading">Your Cart</span>
           <span className="cart-num-items">({totalQuantities} items)</span>
         </button>
-
         {cartItems.length < 1 && (
           <div className="empty-cart">
             <AiOutlineShopping size={150} />
@@ -89,7 +89,7 @@ const Cart = () => {
         {cartItems.length >= 1 && (
           <div className="cart-bottom">
             <div className="total">
-              <h3>    Subtotal:</h3>
+              <h3>Subtotal:</h3>
               <h3>₹{totalPrice}</h3>
             </div>
             <div className="btn-container">
@@ -100,7 +100,10 @@ const Cart = () => {
           </div>
         )}
       </div>
-    </div>
+
+    
+
+
   )
 }
 

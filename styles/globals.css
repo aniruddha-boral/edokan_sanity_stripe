@@ -85,8 +85,8 @@ width: 100%;
 }
 
 .sanity-icon{
-  font-size: 25px;
-  color: rgb(9, 1, 113);
+  font-size: 20px;
+  color: rgb(1, 113, 68);
   cursor: pointer;
   position: sticky;
   left: 100px;
@@ -301,7 +301,7 @@ text-align: end;
 }
 
 .footer-container{
-  color: #004f16;
+  color: #324d67;
   text-align: center;
   margin-top: 20px;
   padding: 30px 10px;

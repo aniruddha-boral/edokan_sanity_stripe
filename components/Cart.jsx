@@ -33,7 +33,6 @@ const Cart = () => {
   }
 
   return (
-    <div>
     <div className="cart-wrapper" ref={cartRef}>
       <div className="cart-container">
         <button
@@ -69,7 +68,7 @@ const Cart = () => {
                 <div className="flex top">
                   <h5>{item.name}</h5>
                   <h4>₹{item.price}</h4>
-                </div>
+               
                 <div className="flex bottom">
                   <div>
                   <p className="quantity-desc">
@@ -79,7 +78,7 @@ const Cart = () => {
                     <span className="num" onClick="">{item.quantity}</span>
                     <span className="plus" onClick={() => toggleCartItemQuanitity(item._id, 'inc') }><AiOutlinePlus /></span>
                   </p>
-                  </div>
+                 
                   <button
                     type="button"
                     className="remove-item"
@@ -107,7 +106,6 @@ const Cart = () => {
         )}
       </div>
     </div>
-     </div>
   )
 }
 

@@ -12,10 +12,11 @@ const Navbar = () => {
       <p className="logo">
         <Link href="/">Online Shopping Platform</Link>
       </p>
-      <p href="https://github.com/aniruddha-boral">
-        <AiOutlineShopping size="3rem" />
-      </p>
+    
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
+        <AiOutlineShopping />
+        <AiOutlineShopping />
+        <AiOutlineShopping />
         <AiOutlineShopping />
         <span className="cart-item-qty">{totalQuantities}</span>
       </button>

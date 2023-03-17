@@ -71,7 +71,7 @@ width: 100%;
 }
 .cart-icon{
   font-size: 52px;
-  color: rgb(215, 125, 21);
+  color: #ff0000;
   cursor: pointer;
   position: relative;
   transition: transform .4s ease;

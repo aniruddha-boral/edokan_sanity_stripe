@@ -380,8 +380,8 @@ padding: 20px 10px;
   color: #f02d34;
   cursor: pointer;
   background: transparent;
-  
-  padding: 10px 20px;
+  border: none;
+  position: absolute;
 }
 .cart-bottom{
   position: absolute;

@@ -384,7 +384,7 @@ padding: 20px 10px;
 .total{
   display: flex;
   justify-content: space-between;
-  left: 80px;
+  left: 75px;
 }
 .total h3{
   font-size: 22px;

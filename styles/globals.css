@@ -101,9 +101,9 @@ width: 100%;
 .cart-item-qty{
   position: absolute;
   right: -8px;
-  font-size: 12px;
+  font-size: 15px;
   color: #eee;
-  background-color: #f02d34;
+  background-color: #f02d332d;
   width: 18px;
   height: 18px;
   border-radius: 50%;

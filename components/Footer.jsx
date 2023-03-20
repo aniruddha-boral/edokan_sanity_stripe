@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="footer-container">
       <p>Best Headphones Shopping & Retail Store</p>
       <p> Kandi, Murshidabad</p>
-      <p> 18th March 2023</p>
+      <p> 25th March 2023</p>
       <p className="icons">
         <AiFillInstagram />
         <AiOutlineTwitter />

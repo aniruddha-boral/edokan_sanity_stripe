@@ -88,8 +88,7 @@ width: 100%;
   font-size: 20px;
   color: rgb(1, 113, 68);
   cursor: pointer;
-  position: sticky;
-  left: 100px;
+  justify-self: right;
   
   border: none;
   background-color: transparent;

@@ -77,8 +77,8 @@ width: 100%;
   transition: transform .4s ease;
   border: none;
   background-color: transparent;
+  left: auto;
   
-  right: auto;
 }
 
 

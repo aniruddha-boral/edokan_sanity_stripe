@@ -74,10 +74,11 @@ width: 100%;
   color: #ff0000;
   cursor: pointer;
   position: absolute;
+  right: -8px;
   transition: transform .4s ease;
   border: none;
   background-color: transparent;
-  left: auto;
+  
   
 }
 

@@ -701,7 +701,7 @@ margin-top: 160px;
   .product-detail-container .product-detail-image{
     width: 350px;
     height: 350px;
-    left: 25;
+    
   }
   .cart-container{
     width: 415px;
@@ -728,7 +728,7 @@ margin-top: 160px;
     width: 150px;
   }
   .product-detail-container{
-    margin: 20px;
+    margin: 600px;
   }
 
 .item-desc .flex{

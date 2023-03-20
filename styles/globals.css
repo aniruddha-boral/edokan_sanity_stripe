@@ -70,7 +70,7 @@ width: 100%;
 
 }
 .cart-icon{
-  font-size: 25px;
+  font-size: 30px;
   color: #ff0000;
   cursor: pointer;
   position: absolute;
@@ -88,10 +88,11 @@ width: 100%;
 }
 
 .sanity-icon{
-  font-size: 20px;
+  font-size: 30px;
   color: rgb(1, 113, 68);
   cursor: pointer;
   right: 16px;
+  
   position: absolute;
   border: none;
   background-color: transparent;

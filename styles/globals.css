@@ -364,6 +364,7 @@ padding: 20px 10px;
   height: 150px;
     border-radius: 15px;
  background-color: #ebebeb;
+ left: 25;
 }
 .item-desc .flex{
   display: flex;
@@ -410,7 +411,7 @@ padding: 30px 65px;
 .btn-container{
   width: 300px;
   margin: auto;
-  left: 25px;
+  
 
 }
 .btn{

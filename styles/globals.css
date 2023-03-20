@@ -453,7 +453,7 @@ padding: 30px 65px;
   transition: .3s ease-in-out;
 }
 .product-detail-image:hover{
-  background-color: #f02d34;
+  background-color: #fdf6f6;
 
 }
 .small-images-container{
@@ -701,7 +701,7 @@ margin-top: 160px;
   .product-detail-container .product-detail-image{
     width: 350px;
     height: 350px;
-    
+    left: 40px;
   }
   .cart-container{
     width: 415px;
@@ -728,7 +728,7 @@ margin-top: 160px;
     width: 150px;
   }
   .product-detail-container{
-    margin: 600px;
+    margin: 20px; 
   }
 
 .item-desc .flex{

@@ -11,7 +11,16 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <p className="logo">
-        <Link href="/">GULU</Link>
+        <Link href="/">G</Link>
+      </p>
+      <p className="logo2">
+        <Link href="/">U</Link>
+      </p>
+      <p className="logo3">
+        <Link href="/">L</Link>
+      </p>
+      <p className="logo4">
+        <Link href="/">U</Link>
       </p>
 
       <Link href="https://aniruddhaboral2.sanity.studio/desk">

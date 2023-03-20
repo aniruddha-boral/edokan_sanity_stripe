@@ -30,7 +30,7 @@ width: 100%;
   display: flex;
   justify-content: space-between;
   margin: 6px 18px;
-  position: relative;
+  position: fixed;
 }
 .marquee-text{
   font-size: 29px;

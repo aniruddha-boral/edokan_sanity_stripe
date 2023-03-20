@@ -419,7 +419,7 @@ padding: 30px 65px;
   border: none;
   font-size: 20px;
   margin-top: 40px;
-  left: 50px;
+
   text-transform: uppercase;
   background-color: #f02d34;
   color: #fff;
@@ -775,5 +775,5 @@ margin-top: 160px;
 .btn-container{
   width: 300px;
   margin: auto;
-}
+  left: 15px;
 }

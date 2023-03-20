@@ -410,6 +410,8 @@ padding: 30px 65px;
 .btn-container{
   width: 300px;
   margin: auto;
+  left: 25px;
+
 }
 .btn{
   width: 100%;

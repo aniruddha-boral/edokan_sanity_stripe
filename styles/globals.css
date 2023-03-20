@@ -91,7 +91,7 @@ width: 100%;
   font-size: 20px;
   color: rgb(1, 113, 68);
   cursor: pointer;
-  left: 50;
+  right: -4px;
   position: absolute;
   border: none;
   background-color: transparent;

@@ -70,23 +70,23 @@ width: 100%;
   font-weight: 700;
 }
 .logo2{
-  color: #ffff00;
+  color: #09ff00;
   font-size: 30px;
   font-weight: 700;
 }
 .logo3{
-  color: #2bff00;
+  color: #00ffff;
   font-size: 30px;
   font-weight: 700;
 }
 .logo4{
-  color: #00ddff;
+  color: #0004ff;
   font-size: 30px;
   font-weight: 700;
 }
 .cart-icon{
   font-size: 30px;
-  color: #ff00ea;
+  color: #070155;
   cursor: pointer;
   position: absolute;
   right: -8px;
@@ -104,7 +104,7 @@ width: 100%;
 
 .sanity-icon{
   font-size: 29px;
-  color: #1500ff;
+  color: #070155;
   cursor: pointer;
   right: 30px;
   

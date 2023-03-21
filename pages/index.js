@@ -5,16 +5,7 @@ import { Product, FooterBanner, HeroBanner } from '../components';
 
 const Home = ({ products, bannerData }) => (
   <div>
-    <Carousel showArrows={true} onChange={onChange} onClickItem={onClickItem} onClickThumb={onClickThumb}>
-                <div>
-                    <img src="/aura.jpg" />
-                    <p className="legend">Legend 1</p>
-                </div>
-                <div>
-                    <img src="/aura_2.jpg" />
-                    <p className="legend">Legend 2</p>
-                </div>
-              </Carousel>
+   
     <div className="products-heading">
       <h2>Best of Electronics</h2>
       <p>Curated for You</p>

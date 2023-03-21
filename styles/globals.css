@@ -65,9 +65,8 @@ width: 100%;
     margin-left: 6px;
 }
 .logo{
-  color: #ff0000;
-  font-size: 1px;
-  font-weight: 700;
+  width: 10px ;
+  height: 10px;
 }
 .logo2{
   color: #09ff00;

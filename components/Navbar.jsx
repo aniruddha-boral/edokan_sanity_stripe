@@ -9,10 +9,8 @@ const Navbar = () => {
 
   return (
     <div className="navbar-container">
-      <a href="/">
-        <img class="logo" src="/favicon.ico"/>
-       </a>
-      <p className="navtitle">ULU
+     
+      <p className="navtitle">GULU
       </p>
        <a type="button" className="user-icon">
           <AiOutlineSmile />

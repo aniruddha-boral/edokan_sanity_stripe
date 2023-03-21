@@ -87,9 +87,9 @@ width: 100%;
 .cart-icon:hover{
   transform: scale(1.1,1.1);
 }
-.sanity-icon{
+.user-icon{
   font-size: 29px;
-  color: #070155;
+  color: #324d67;
   cursor: pointer;
   right: 30px;
   

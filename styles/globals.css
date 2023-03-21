@@ -67,6 +67,7 @@ width: 100%;
 .logo{
   width: 30px;
   height: 30px;
+  top: 60px;
 }
 .navtitle{
   color: #324d67;
@@ -81,6 +82,7 @@ width: 100%;
   cursor: pointer;
   position: absolute;
   right: -8px;
+
   transition: transform .4s ease;
   border: none;
   background-color: transparent;

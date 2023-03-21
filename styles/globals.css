@@ -65,24 +65,15 @@ width: 100%;
     margin-left: 6px;
 }
 .img-responsive{
-  width: 10px;
-  height: 10px;
+  width: 30px;
+  height: 30px;
 }
-.logo2{
+.logo{
   color: #09ff00;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 1500;
 }
-.logo3{
-  color: #00ffff;
-  font-size: 30px;
-  font-weight: 700;
-}
-.logo4{
-  color: #0004ff;
-  font-size: 30px;
-  font-weight: 700;
-}
+
 .cart-icon{
   font-size: 30px;
   color: #070155;

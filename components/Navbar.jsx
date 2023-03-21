@@ -10,11 +10,10 @@ const Navbar = () => {
 
   return (
     <div className="navbar-container">
-      <p className="logo">
-        
-        <img src="/favicon.ico" alt="image" />
-          
-      </p>
+      <a>
+        <img class="img-responsive" src="/favicon.ico"/>
+       </a>
+      
       <p className="logo2">
         <Link href="/">U</Link>
       </p>

@@ -10,9 +10,9 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <a href="/">
-        <img class="img-responsive" src="/favicon.ico"/>
+        <img class="logo" src="/favicon.ico"/>
        </a>
-      <h2 className="products-heading">ULU
+      <h2 className="navtitle">ULU
       </h2>
       <Link href="https://aniruddhaboral2.sanity.studio/desk">
           <button type="button" className="sanity-icon">

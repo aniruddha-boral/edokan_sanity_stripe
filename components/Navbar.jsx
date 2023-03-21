@@ -12,8 +12,8 @@ const Navbar = () => {
       <a href="/">
         <img class="img-responsive" src="/favicon.ico"/>
        </a>
-      <p className="logo">ULU
-      </p>
+      <h2 className="products-heading">ULU
+      </h2>
       <Link href="https://aniruddhaboral2.sanity.studio/desk">
           <button type="button" className="sanity-icon">
           <AiOutlineDatabase />

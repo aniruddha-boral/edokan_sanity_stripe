@@ -12,13 +12,13 @@ const Navbar = () => {
      
       <p className="navtitle">GULU
       </p>
-       <p type="button" className="user-icon">
+       <button type="button" className="user-icon">
           <AiOutlineSmile />
-       </p>
-        <p type="button" className="cart-icon" onClick={() => setShowCart(true)}>
+       </button>
+        <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
         <AiOutlineShoppingCart />
        <span className="cart-item-qty">{totalQuantities}</span>
-      </p>
+      </button>
       {showCart && <Cart />}
     </div>
   )

@@ -70,13 +70,13 @@ width: 100%;
 }
 .navtitle{
   color: #324d67;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 800;
 }
 
 .cart-icon{
   font-size: 30px;
-  color: #070155;
+  color: #324d67;
   cursor: pointer;
   position: absolute;
   right: -8px;

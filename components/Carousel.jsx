@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-var React = require('react');
+
 var ReactDOM = require('react-dom');
 var Carousel = require('react-responsive-carousel').Carousel;
 

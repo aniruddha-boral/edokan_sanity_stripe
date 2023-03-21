@@ -2,7 +2,7 @@
 
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Carousel = require('react-responsive-carousel').Carousel;
+
 
 var DemoCarousel = React.createClass({
     render() {

@@ -1,11 +1,11 @@
 import React from 'react';
 
 import { client } from '../lib/client';
-import { Product, FooterBanner, HeroBanner } from '../components';
+import { Product, FooterBanner, HeroBanner, Carousel } from '../components';
 
 const Home = ({ products, bannerData }) => (
   <div>
-    
+    <Carousel />
     <div className="products-heading">
       <h2>Best of Electronics</h2>
       <p>Curated for You</p>

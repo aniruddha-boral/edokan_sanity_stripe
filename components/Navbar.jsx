@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
      
-      <p className="navtitle">GULU
+      <p className="navtitle">GULUr
       </p>
        <button type="button" className="user-icon">
           <AiOutlineSmile />

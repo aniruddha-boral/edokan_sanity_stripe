@@ -10,17 +10,16 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
      
-      <p className="navtitle">GULU
-      </p>
-      <button className="user-icon" href="https://aniruddha-boral.netlify.app/">
+      <p className="navtitle">GULU</p>
+      <a className="user-icon" href="https://aniruddha-boral.netlify.app/">
           <AiOutlineUser />
-       </button>
-       <button className="order-icon" href="https://dashboard.stripe.com/test/payments">
+       </a>
+       <a className="order-icon" href="https://dashboard.stripe.com/test/payments">
           <AiFillBank />
-       </button>
-       <button className="stock-icon" href="https://aniruddhaboral2.sanity.studio/">
+       </a>
+       <a className="stock-icon" href="https://aniruddhaboral2.sanity.studio/">
           <AiFillDatabase />
-       </button>
+       </a>
         <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
         <AiOutlineShoppingCart />
        <span className="cart-item-qty">{totalQuantities}</span>

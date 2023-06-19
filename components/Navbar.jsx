@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
      
-      <p className="navtitle">GULU</p>
+      <p className="navtitle">GULrU</p>
       <a className="user-icon" href="https://aniruddha-boral.netlify.app/">
           <AiOutlineUser />
        </a>

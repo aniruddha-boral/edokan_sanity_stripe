@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { AiOutlineShoppingCart, AiOutlineSmile } from 'react-icons/ai'
+import { AiOutlineShoppingCart, AiFillDatabase, AiFillBank, AiOutlineUser } from 'react-icons/ai'
 import { Cart } from './';
 import { useStateContext} from '../context/StateContext';
 
@@ -12,11 +12,14 @@ const Navbar = () => {
      
       <p className="navtitle">GULU
       </p>
+      <button type="button" className="user-icon" href="">
+          <AiOutlineUser />
+       </button>
        <button type="button" className="user-icon" href="">
-          <AiOutlineSmile />
+          <AiFillBank />
        </button>
        <button type="button" className="user-icon" href="https://aniruddhaboral2.sanity.studio/">
-          <AiOutlineSmile />
+          <AiFillDatabase />
        </button>
         <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
         <AiOutlineShoppingCart />

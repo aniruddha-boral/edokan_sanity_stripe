@@ -97,6 +97,26 @@ width: 100%;
   border: none;
   background-color: transparent;
 }
+.stock-icon{
+  font-size: 29px;
+  color: #324d67;
+  cursor: pointer;
+  right: 110px;
+  
+  position: absolute;
+  border: none;
+  background-color: transparent;
+}
+.order-icon{
+  font-size: 29px;
+  color: #324d67;
+  cursor: pointer;
+  right: 70px;
+  
+  position: absolute;
+  border: none;
+  background-color: transparent;
+}
 
 .cart-item-qty{
   position: absolute;

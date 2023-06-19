@@ -12,13 +12,13 @@ const Navbar = () => {
      
       <p className="navtitle">GULU
       </p>
-      <button type="button" className="user-icon" href="">
+      <button type="button" className="user-icon" href="https://dashboard.stripe.com/test/payments">
           <AiOutlineUser />
        </button>
-       <button type="button" className="user-icon" href="">
+       <button type="button" className="order-icon" href="https://dashboard.stripe.com/test/payments">
           <AiFillBank />
        </button>
-       <button type="button" className="user-icon" href="https://aniruddhaboral2.sanity.studio/">
+       <button type="button" className="stock-icon" href="https://aniruddhaboral2.sanity.studio/">
           <AiFillDatabase />
        </button>
         <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>

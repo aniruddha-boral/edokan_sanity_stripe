@@ -12,7 +12,10 @@ const Navbar = () => {
      
       <p className="navtitle">GULU
       </p>
-       <button type="button" className="user-icon" href="/">
+       <button type="button" className="user-icon" href="">
+          <AiOutlineSmile />
+       </button>
+       <button type="button" className="user-icon" href="https://aniruddhaboral2.sanity.studio/">
           <AiOutlineSmile />
        </button>
         <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>

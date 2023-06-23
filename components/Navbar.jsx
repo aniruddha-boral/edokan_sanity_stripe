@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="navbar-container">
      
       <p className="navtitle">Gucci</p>
-      <a className="user-icon" href="https://aniruddha-boral.netlify.app/">
+      <a className="user-icon" href="https://www.linkedin.com/in/aniruddha-boral/recent-activity/">
           <AiOutlineUser />
        </a>
        <a className="order-icon" href="https://dashboard.stripe.com/test/payments">
